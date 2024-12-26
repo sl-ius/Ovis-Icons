@@ -6,7 +6,7 @@
     "build": "tsc"
   },
   "keywords": [],
-  "author": "sl_ius",
+  "author": "Sius <sius@ovis.space>",
   "license": "MIT",
   "description": "A sleek, rounded-corner icons.",
   "dependencies": {

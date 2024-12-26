@@ -1,0 +1,27 @@
+import * as React from "react";
+import { IconProps } from "./types";
+
+export const Keyboard = React.forwardRef<SVGSVGElement, IconProps>(
+  ({ color = "currentColor", ...props }, forwardedRef) => {
+    return (
+      <svg
+        {...props}
+        ref={forwardedRef}
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        fill={color}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M1.5 5.5C1.5 4.67157 2.17157 4 3 4L13.0282 4C13.8566 4 14.5282 4.67158 14.5282 5.5V9.6C14.5282 10.4284 13.8566 11.1 13.0282 11.1H3C2.17157 11.1 1.5 10.4284 1.5 9.6V5.5ZM3 3C1.61929 3 0.5 4.11929 0.5 5.5V9.6C0.5 10.9807 1.61929 12.1 3 12.1H13.0282C14.4089 12.1 15.5282 10.9807 15.5282 9.6V5.5C15.5282 4.11929 14.4089 3 13.0282 3L3 3ZM3.49744 5.05H2.49744V6.05H3.49744V5.05ZM5.49744 5.05H4.49744V6.05H5.49744V5.05ZM4.49744 7.05V8.05H2.49744V7.05H4.49744ZM11.4974 9.05H4.49744V10.05H11.4974V9.05ZM6.49744 5.05H7.49744V6.05H6.49744V5.05ZM6.49744 7.05H5.49744V8.05H6.49744V7.05ZM8.49744 5.05H9.49744V6.05H8.49744V5.05ZM8.49744 7.05H7.49744V8.05H8.49744V7.05ZM10.4974 5.05H11.4974V6.05H10.4974V5.05ZM10.4974 7.05H9.49744V8.05H10.4974V7.05ZM12.4974 9.05H13.4974V10.05H12.4974V9.05ZM3.49744 9.05H2.49744V10.05H3.49744V9.05ZM11.4974 7.05H13.4974V8.05H11.4974V7.05ZM13.4974 5.05H12.4974V6.05H13.4974V5.05Z"
+          fill={color}
+        />
+      </svg>
+    );
+  },
+);
+
+export default Keyboard;

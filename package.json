@@ -1,0 +1,19 @@
+{
+  "name": "@ovis/react-icons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "sl_ius",
+  "license": "MIT",
+  "description": "A sleek, rounded-corner icons.",
+  "dependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "typescript": "^5.7.2"
+  }
+}

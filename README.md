@@ -13,3 +13,5 @@ npm install @ovis/react-icons
 Licensed under the MIT License
 
 See [LICENSE](./LICENSE.md) for more information.
+
+-- not completed so the installation doesnt work
